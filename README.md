@@ -13,7 +13,7 @@ Logistic Regression model against a Voting Classifier ensemble (Logistic Regress
 
 ## Approach
 
-1. Exploratory data analysis — class balance, correlation between features
+1. Exploratory data analysis - class balance, correlation between features
 2. Train/test split (80/20, stratified, `random_state=2`)
 3. Baseline model: Logistic Regression (scaled features)
 4. Ensemble model: soft-voting classifier combining Logistic Regression + Random Forest
@@ -31,7 +31,7 @@ Logistic Regression model against a Voting Classifier ensemble (Logistic Regress
 
 ## Limitations
 
-- Small dataset (303 rows) — a single train/test split has meaningful variance; results
+- Small dataset (303 rows) - a single train/test split has meaningful variance; results
   should ideally be confirmed with k-fold cross-validation.
 - This is the standard UCI benchmark dataset, used here to demonstrate methodology
   (ensembling, proper evaluation metrics) rather than for clinical use.
